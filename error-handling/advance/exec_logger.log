@@ -1,0 +1,8 @@
+2024-01-15 20:11:01,457 - exec_logger - ERROR - exception in divideByZero
+==========================
+Traceback (most recent call last):
+  File "error-logger.py", line 32, in log_runner
+    return func(*args, **kwargs)
+  File "error-logger.py", line 47, in divideByZero
+    return 12 / 0
+ZeroDivisionError: division by zero

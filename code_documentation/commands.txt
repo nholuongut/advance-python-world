@@ -1,0 +1,8 @@
+# first build the makedocs artifacts
+mkdocs build
+
+# view the output
+mkdocs serve
+
+# deploy a website to github
+mkdocs gh-deploy --config-file ../my-project/mkdocs.yml --remote-branch master

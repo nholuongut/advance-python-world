@@ -1,0 +1,14 @@
+site_name: Bank Account System
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+
+nav:
+  - Overview: index.md
+  - Tutorials: tutorials.md
